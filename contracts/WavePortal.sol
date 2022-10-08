@@ -71,9 +71,9 @@ contract WavePortal {
         console.log("Random # generated: %d", seed);
 
         /*
-         * ユーザーがETHを獲得する確率を50％に設定
+         * ユーザーがETHを獲得する確率を25％に設定
          */
-        if (seed <= 50) {
+        if (seed <= 25) {
             console.log("%s won!", msg.sender);
 
             /*
